@@ -1,11 +1,10 @@
 #include<stdio.h>
 
-/*
+/**
  * main - is the main function
  *
- * main - this is the main function
- * printf - is the print function
- * Return: is always 0
+ * main - this is the main function, which stores all the code
+ * Return: is always 0 if true
  */
 
 int main(void)
