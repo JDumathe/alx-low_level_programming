@@ -2,8 +2,9 @@
 
 /**
  * main - is the main function
+ * main - this is the main function
  * puts - writes string to stdout and a new line
- * Return : is always zero
+ * Return: is always zero
  */
 int main(void)
 {
