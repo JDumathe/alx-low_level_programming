@@ -6,7 +6,6 @@
  * main - this is the main function and contains all the code
  *
  * Return: this is 0 if true
- *
 */
 /* betty style doc for function main goes there */
 int main(void)

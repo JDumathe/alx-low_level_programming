@@ -8,7 +8,8 @@
 */
 int main(void)
 {
-	for (int i = 'A'; i <= 'Z'; i++)
+	int i;
+	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == 'Q' || i == 'E')
 		{
