@@ -8,11 +8,15 @@
 */
 int main(void)
 {
-	int i;
+	int i, k;
+
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		putchar(tolower(i));
-		putchar(i);
+	}
+	for (k = 'A'; k <= 'Z'; k++)
+	{
+		putchar(k);
 	}
 	putchar('\n');
 	return (0);
