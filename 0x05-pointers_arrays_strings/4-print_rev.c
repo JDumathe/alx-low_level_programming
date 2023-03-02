@@ -8,26 +8,19 @@
 
 void print_rev(char *s)
 {
-	/*
-	char str[62] = s;
-	int j;
+	int i;
+	int j = 0;
 
-	for (j = 62; j >= 0; j--)
+	while (*s != '\0')
 	{
-		_putchar(str[j]);
+		j++;
+		s++;
 	}
-	*/
-	int i, len, temp;
-
-	len = strlen(s); 
-	/* use strlen() to get the length of str string*/
-
-	/* use for loop to iterate the string*/
-	for (i = 0; i < len/2; i++)
+	s--;
+	for (i = j; i >= 0; i--)
 	{
-	/* temp variable use to temporary hold the string*/
-	temp = s[i];
-	s[i] = s[len - i - 1];
-	s[len - i - 1] = temp;
+		_putchar(*s);
+		s--;
 	}
+	_putchar('\n');
 }
